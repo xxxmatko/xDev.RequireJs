@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>xDev.RequireJS | @ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="xDev.RequireJS">
+    <meta name="author" content="xxxmatko">
+    <meta name="viewport" content="width=device-width" />
+    @RenderSection("styles", false)
+</head>
+    <body class="@ViewBag.Theme">
+        <h1>
+            RequireJS @ViewBag.PluginName plugin
+        </h1>
+        <p>
+            @ViewBag.Description
+        </p>
+        @RenderBody()
+        @RenderSection("config", false)
+        <script src="~/Scripts/Libs/require.js"></script>
+        @RenderSection("scripts", false)
+    </body>
+</html>

@@ -10,6 +10,9 @@
 *.user
 *.sln.docstates
 
+# Plugins folder inside the project
+
+
 # Build results
 
 [Dd]ebug/
@@ -98,8 +101,7 @@ publish/
 *.pubxml
 
 # NuGet Packages Directory
-## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+packages/
 
 # Windows Azure Build Output
 csx
@@ -150,3 +152,4 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+Plugins/Demo/Demo/Scripts/Plugins/using.js
