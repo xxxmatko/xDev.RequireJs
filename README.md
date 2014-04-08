@@ -14,3 +14,12 @@ requirejs.config({
 	}
 }); 
 ```
+
+a použiť plugin pri načítavaní modulov"
+
+```javascript
+// Pouzitie pluginu pri nacitani modulu "foo"
+require(["using!Web/foo"], function(foo){
+	alert(foo.msg);
+}); 
+```
