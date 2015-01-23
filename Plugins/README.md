@@ -9,6 +9,14 @@
             Popis
         </th>
     </tr>
+    <tr>
+        <td>
+            image
+        </td>
+        <td>
+            Plugin pre načítanie obrázok.
+        </td>
+    </tr>       
 	<tr>
         <td>
             using
