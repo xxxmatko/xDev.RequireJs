@@ -14,7 +14,7 @@
             image
         </td>
         <td>
-            Plugin pre načítanie obrázok.
+            Plugin pre načítanie obrázkov.
         </td>
     </tr>       
 	<tr>
